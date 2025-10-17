@@ -1,0 +1,10 @@
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\bin\Debug\okey.exe.config
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\bin\Debug\okey.exe
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\bin\Debug\okey.pdb
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.csproj.AssemblyReference.cache
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.Form1.resources
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.Properties.Resources.resources
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.csproj.GenerateResource.cache
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.exe
+C:\Users\Equipo\Source\Repos\Practica-2.0\okey\obj\Debug\okey.pdb

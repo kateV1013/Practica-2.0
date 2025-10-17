@@ -28,13 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbHola = new System.Windows.Forms.TextBox();
+            this.lblHola = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(54, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(197, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "HOLAAAAAAAAAAAAAAAAAAAAAAAA";
+            // 
+            // tbHola
+            // 
+            this.tbHola.Location = new System.Drawing.Point(57, 74);
+            this.tbHola.Name = "tbHola";
+            this.tbHola.Size = new System.Drawing.Size(204, 20);
+            this.tbHola.TabIndex = 1;
+            this.tbHola.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbHola_KeyDown);
+            // 
+            // lblHola
+            // 
+            this.lblHola.AutoSize = true;
+            this.lblHola.Location = new System.Drawing.Point(57, 126);
+            this.lblHola.Name = "lblHola";
+            this.lblHola.Size = new System.Drawing.Size(35, 13);
+            this.lblHola.TabIndex = 2;
+            this.lblHola.Text = "label2";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblHola);
+            this.Controls.Add(this.tbHola);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbHola;
+        private System.Windows.Forms.Label lblHola;
     }
 }
 

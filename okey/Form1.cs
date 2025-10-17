@@ -16,5 +16,18 @@ namespace okey
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbHola_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                lblHola.Text = tbHola.Text;
+            }
+        }
     }
 }
